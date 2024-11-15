@@ -1,0 +1,130 @@
+console.log("Hello, World!");
+
+
+
+let x;
+x=1
+console.log(x);
+
+const y=3 
+console.log(y);
+
+var z=1.03 
+console.log(z);
+
+console.log(x+y);
+
+let word="hi";
+console.log(word);
+
+console.log(3%2);
+
+
+
+
+
+function sum(num1,num2){
+  return num1+num2;}
+
+console.log(sum(x,y));
+
+let arr1=[1,2,"hi", true,x];
+
+const person={
+  firstname: "John",
+  lastname: "Doe",
+  age: 30,
+};
+
+let arr2=[3,5,3,1];
+
+console.log(arr2[0]);
+
+
+
+
+console.log(Math.PI);
+
+console.log(Math.abs(-20));
+
+
+
+
+let x1;
+let x2;
+
+if(x1>x2){
+  console.log("x1 greater than x2");
+}
+
+else if(x1<x2){
+  console.log("x1 smaller than x2");
+}
+
+else{
+  console.log("x1 equal x2");
+}
+
+
+let c;
+c=7
+
+if (c>5 || c==2){
+  console.log("lol");
+}
+
+
+
+
+let v;
+v=2
+
+while (v<=5){
+  console.log("v equals", v);
+  v+=1;
+}
+
+
+
+
+let arr=[4,5,8,10];
+
+for (i=10; i>2; i--){
+  console.log(i);
+}
+
+
+
+
+for (i in arr){
+  console.log(i);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
